@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: greenyellow;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#game{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr)
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#resetBtn{
+    padding-inline: 24px;
+    padding-block: 10px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    background-color: greenyellow;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* .resultContainer{
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+} */
+
+.hide{
+    display: none;
+}
+
+#newBtn{
+    padding-inline: 24px;
+    padding-block: 10px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    background-color: greenyellow;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.greenColorClass{
+    background-color: greenyellow;
+}
+
+.redColorClass{
+    background-color: red;
+}
